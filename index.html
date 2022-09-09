@@ -19,22 +19,23 @@
     <body>
         <header>
             <img src="/assets/html_css_js.png" />
-            <h1>Web App</h1>
+            <h1>8 BALL</h1>
         </header>
 
         <main>
-            <div id="inputs-containter">
+            <div id="inputs-container">
                 <label for="question">
                     <input type="text" name="question" id="question" />
-                    <button id="ask-button">Ask the 8 Ball</button>
+                    <button id="ask">Ask the 8 Ball</button>
                 </label>
                 <div>
-                    <img src="./8ball.png" alt="magic 8 ball" />
+                    <img src="./8ball.png" alt="8 ball" />
                 </div>
             </div>
-            <div class="fortune-container" class="hide">
+            <div id="fortune-container" class="hide">
                 <h3>Magic 8 ball says...</h3>
                 <p id="fortune"></p>
+                <button id="reset">Try Again</button>
             </div>
         </main>
 
